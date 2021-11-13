@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "yesenin.ProjectEuler", "yesenin.ProjectEuler\yesenin.ProjectEuler.csproj", "{AB929151-6D19-4072-8BBA-EC7CBE2FEB44}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Knuth", "Knuth", "{01B65887-CA72-40B1-B8D5-D3D1E8294973}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "yesenin.Knuth.Mix", "Knuth\yesenin.Knuth.Mix\yesenin.Knuth.Mix.csproj", "{53B959DA-8DEA-40D6-9C73-D9B916D0AEA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "yesenin.ProjectEuler.Benchmarks", "yesenin.ProjectEuler.Benchmarks\yesenin.ProjectEuler.Benchmarks.csproj", "{2FD8FBD6-644B-4C7C-B693-0C7DAF94598A}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "yesenin.Func", "yesenin.Func\yesenin.Func.fsproj", "{A0079245-7016-42C8-BBD3-0AC4544178E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "yesenin.ProjectEuler.Tests", "yesenin.ProjectEuler.Tests\yesenin.ProjectEuler.Tests.csproj", "{BB53BF96-32BB-477A-83AF-ABC0E47D472F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProjectEuler", "ProjectEuler", "{CC483E59-99FC-4941-BE28-F6B01C0BFA47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "yesenin.App", "yesenin.App\yesenin.App.csproj", "{643C0779-7655-4A27-9D75-2A51882B56C1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB929151-6D19-4072-8BBA-EC7CBE2FEB44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB929151-6D19-4072-8BBA-EC7CBE2FEB44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB929151-6D19-4072-8BBA-EC7CBE2FEB44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB929151-6D19-4072-8BBA-EC7CBE2FEB44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53B959DA-8DEA-40D6-9C73-D9B916D0AEA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53B959DA-8DEA-40D6-9C73-D9B916D0AEA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53B959DA-8DEA-40D6-9C73-D9B916D0AEA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53B959DA-8DEA-40D6-9C73-D9B916D0AEA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FD8FBD6-644B-4C7C-B693-0C7DAF94598A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FD8FBD6-644B-4C7C-B693-0C7DAF94598A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FD8FBD6-644B-4C7C-B693-0C7DAF94598A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FD8FBD6-644B-4C7C-B693-0C7DAF94598A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0079245-7016-42C8-BBD3-0AC4544178E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0079245-7016-42C8-BBD3-0AC4544178E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0079245-7016-42C8-BBD3-0AC4544178E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0079245-7016-42C8-BBD3-0AC4544178E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB53BF96-32BB-477A-83AF-ABC0E47D472F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB53BF96-32BB-477A-83AF-ABC0E47D472F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB53BF96-32BB-477A-83AF-ABC0E47D472F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB53BF96-32BB-477A-83AF-ABC0E47D472F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{643C0779-7655-4A27-9D75-2A51882B56C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{643C0779-7655-4A27-9D75-2A51882B56C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{643C0779-7655-4A27-9D75-2A51882B56C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{643C0779-7655-4A27-9D75-2A51882B56C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{53B959DA-8DEA-40D6-9C73-D9B916D0AEA5} = {01B65887-CA72-40B1-B8D5-D3D1E8294973}
+		{AB929151-6D19-4072-8BBA-EC7CBE2FEB44} = {CC483E59-99FC-4941-BE28-F6B01C0BFA47}
+		{BB53BF96-32BB-477A-83AF-ABC0E47D472F} = {CC483E59-99FC-4941-BE28-F6B01C0BFA47}
+		{2FD8FBD6-644B-4C7C-B693-0C7DAF94598A} = {CC483E59-99FC-4941-BE28-F6B01C0BFA47}
+	EndGlobalSection
+EndGlobal

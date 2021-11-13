@@ -1,0 +1,13 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=095ef312_002D239f_002D43e3_002Db6e2_002D71eace2e6bae/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="SolveTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::BB53BF96-32BB-477A-83AF-ABC0E47D472F::.NETCoreApp,Version=v3.1::yesenin.ProjectEuler.Tests.Problem1Tests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::BB53BF96-32BB-477A-83AF-ABC0E47D472F::.NETCoreApp,Version=v3.1::yesenin.ProjectEuler.Tests.Problem2Tests.FibonacciGeneratorTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::BB53BF96-32BB-477A-83AF-ABC0E47D472F::.NETCoreApp,Version=v3.1::yesenin.ProjectEuler.Tests.Problem2Tests.SolveTest&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=82baa255_002Ddad1_002D4630_002D8f3e_002Dce8988d96e5a/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Tests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::AB929151-6D19-4072-8BBA-EC7CBE2FEB44::.NETCoreApp,Version=v3.1::yesenin.ProjectEuler.Problem1+Tests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

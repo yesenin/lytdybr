@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <OutputType>Exe</OutputType>
+        <PackageId>yesenin.ProjectEuler.Benchmarks</PackageId>
+        <AssemblyName>yesenin.ProjectEuler.Benchmarks</AssemblyName>
+        <RootNamespace>yesenin.ProjectEuler.Benchmarks</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="BenchmarkDotNet" Version="0.13.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\yesenin.Func\yesenin.Func.fsproj" />
+      <ProjectReference Include="..\yesenin.ProjectEuler\yesenin.ProjectEuler.csproj" />
+    </ItemGroup>
+
+</Project>
