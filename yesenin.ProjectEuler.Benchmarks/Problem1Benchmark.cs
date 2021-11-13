@@ -1,11 +1,8 @@
 using BenchmarkDotNet.Attributes;
-using BenchmarkDotNet.Jobs;
 
-namespace yesenin.ProjectEuler.Benchmark
+namespace yesenin.ProjectEuler.Benchmarks
 {
-    [SimpleJob(RuntimeMoniker.NetCoreApp31)]
-    [SimpleJob(RuntimeMoniker.Net50)]
-    public class Problem1Benchmark
+    public class Problem1Benchmark : BaseBenchmark
     {
         private readonly int limit = 1000;
 

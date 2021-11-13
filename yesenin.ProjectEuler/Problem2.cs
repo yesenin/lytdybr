@@ -39,6 +39,12 @@ namespace yesenin.ProjectEuler
             return evenFibs.Sum();
         }
         
+        public static int SolveBelow2(int limit)
+        {
+            var generator = new FibonacciGenerator();
+            return generator.GetEvenBelow(limit).Sum();
+        }
+        
         public class FibonacciGenerator
         {
             private int a = 1;
@@ -60,6 +66,20 @@ namespace yesenin.ProjectEuler
                 while (a + b < limit)
                 {
                     yield return a + b;
+                    MakeNewFib();
+                }
+            }
+
+            public IEnumerable<int> GetEvenBelow(int limit)
+            {
+                Reset();
+                while (a + b < limit)
+                {
+                    if ((a + b) % 2 == 0)
+                    {
+                        yield return a + b;
+                    }
+
                     MakeNewFib();
                 }
             }

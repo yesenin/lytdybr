@@ -29,6 +29,9 @@ namespace yesenin.ProjectEuler.Tests
         [Fact]
         public void SolveTest()
         {
+            var bigLimit = 4000000;
+            var expectedAnswer = 4613732;
+            
             var a = Problem2.SolveWithCount(10);
 
             a.Should().Be(44);
@@ -37,8 +40,11 @@ namespace yesenin.ProjectEuler.Tests
 
             b.Should().Be(44);
 
-            var c = Problem2.SolveBelow(4000000);
-            c.Should().Be(4613732);
+            var c = Problem2.SolveBelow(bigLimit);
+            c.Should().Be(expectedAnswer);
+
+            var d = Problem2.SolveBelow2(bigLimit);
+            d.Should().Be(c);
         }
     }
 }
