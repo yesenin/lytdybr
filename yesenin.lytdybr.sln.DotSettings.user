@@ -4,6 +4,9 @@
     &lt;TestId&gt;xUnit::BB53BF96-32BB-477A-83AF-ABC0E47D472F::.NETCoreApp,Version=v3.1::yesenin.ProjectEuler.Tests.Problem1Tests&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::BB53BF96-32BB-477A-83AF-ABC0E47D472F::.NETCoreApp,Version=v3.1::yesenin.ProjectEuler.Tests.Problem2Tests.FibonacciGeneratorTest&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::BB53BF96-32BB-477A-83AF-ABC0E47D472F::.NETCoreApp,Version=v3.1::yesenin.ProjectEuler.Tests.Problem2Tests.SolveTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::BB53BF96-32BB-477A-83AF-ABC0E47D472F::.NETCoreApp,Version=v3.1::yesenin.ProjectEuler.Tests.Problem3Tests.PrimeGenerator_Test&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::BB53BF96-32BB-477A-83AF-ABC0E47D472F::.NETCoreApp,Version=v3.1::yesenin.ProjectEuler.Tests.Problem3Tests.NextPrime_Test&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::BB53BF96-32BB-477A-83AF-ABC0E47D472F::.NETCoreApp,Version=v3.1::yesenin.ProjectEuler.Tests.Problem3Tests.Solve_Test&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=82baa255_002Ddad1_002D4630_002D8f3e_002Dce8988d96e5a/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Tests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
