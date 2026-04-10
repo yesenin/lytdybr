@@ -1,6 +1,4 @@
-﻿using System.Collections.Concurrent;
-
-namespace Lytdybr.App.Blackbook;
+﻿namespace Lytdybr.App.Blackbook;
 
 /// <summary>
 /// Задача:
