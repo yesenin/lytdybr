@@ -48,10 +48,15 @@ public class Kata01(int threadsNumber, int limit)
 
     private void Increment1()
     {
-        lock (_lock)
+        while (true)
         {
-            while (_counter < limit)
+            lock (_lock)
             {
+                if (_counter >= limit)
+                {
+                    break;
+                }
+
                 _counter++;
             }
         }
