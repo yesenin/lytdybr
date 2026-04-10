@@ -12,14 +12,29 @@
 /// </summary>
 public class Kata01(int threadsNumber, int limit)
 {
+    public enum IncrementStrategy
+    {
+        Lock,
+        Interlocked
+    }
+
     private int _counter;
     private readonly Lock _lock = new();
-    public int Do()
+    public int Do() => Do(IncrementStrategy.Interlocked);
+
+    public int Do(IncrementStrategy strategy)
     {
+        var increment = strategy switch
+        {
+            IncrementStrategy.Lock => Increment1,
+            IncrementStrategy.Interlocked => Increment2,
+            _ => throw new ArgumentOutOfRangeException(nameof(strategy), strategy, null)
+        };
+
         var threads = new Thread[threadsNumber];
         for (var i = 0; i < threadsNumber; i++)
         {
-            threads[i] = new Thread(Increment2);
+            threads[i] = new Thread(increment);
             threads[i].Start();
         }
 
